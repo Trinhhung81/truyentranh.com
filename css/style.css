@@ -1,0 +1,354 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(38, 39, 39);
+}
+
+.boxtop {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-image: url(../image/nen-box.png);
+    margin: 0;
+}
+
+.boxtop a {
+    text-decoration: none;
+}
+
+.boxtopleft {
+    float: left;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15%;
+}
+
+.boxtopleft a {
+    color: red;
+}
+
+.boxtopcenter input {
+    width: 300px;
+    height: 30px;
+    margin-top: 6.5px;
+    float: left;
+}
+
+.boxtopright {
+    float: right;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding-right: 13%;
+}
+
+.boxtopright a {
+    color: black;
+    padding-left: 10px;
+}
+
+.boxtopright a:hover {
+    color: blueviolet;
+}
+
+.boxmenu ul {
+    list-style-type: none;
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+}
+
+.boxmenu ul li {
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.boxmenu ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.boxmenu ul li a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.boxmenu ul li a:active {
+    background-color: white;
+}
+
+.boxmenu ul li>.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.boxmenu ul li:hover .sub-menu {
+    display: block;
+    background-color: white;
+}
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 20px;
+    width: 1130px;
+    height: 790px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.box1 {
+    width: 100%;
+    height: 45px;
+    float: left;
+    background-color: rgb(7, 7, 138);
+    line-height: 45px;
+    font-size: 18px;
+    color: white;
+}
+
+nav .box2 {
+    width: 100%;
+    min-height: 350px;
+    /* position: absolute; */
+}
+
+nav img {
+    margin-top: 20px;
+    height: 300px;
+    width: 200px;
+}
+
+nav .khunganh {
+    margin-left: 21.5px;
+    margin-bottom: 60px;
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+
+nav .khunganh a {
+    text-decoration: none;
+}
+
+nav .khunganh a:hover {
+    color: blueviolet;
+}
+
+.text {
+    font-size: 18px;
+    color: black;
+}
+
+article {
+    width: 1134px;
+    height: 3240px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.boxleft {
+    float: left;
+    background-color: white;
+    width: 740px;
+    height: 1920px;
+    border: 1px solid white;
+}
+
+.boxleftbottom {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 170px;
+    height: 300px;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    float: left;
+}
+
+.boxleftbottom a {
+    text-decoration: none;
+}
+
+.boxleftbottom a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.boxleftbottom img {
+    width: 100%;
+}
+
+.xemthem {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 170px;
+    height: 226.5px;
+    /* border: 1px solid red; */
+    background-color: aqua;
+    float: left;
+}
+
+.xemthem i {
+    margin-left: 28px;
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+.xemthem:hover {
+    background-color: aquamarine;
+}
+
+.boxright {
+    float: left;
+    width: 370px;
+    height: 900px;
+    margin-left: 20px;
+}
+
+.boxrighttop {
+    float: left;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.boxrighttop1 {
+    height: 35px;
+    width: 175px;
+    line-height: 35px;
+    background-color: rgb(146, 146, 150);
+    font-size: 18px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.boxrighttop1:hover {
+    background-color: white;
+}
+
+.boxrighttop1 a {
+    height: 35px;
+    width: 185px;
+    text-decoration: none;
+    color: black;
+}
+
+.boxrighttop1 a:hover {
+    color: blueviolet;
+}
+
+.boxrighttop11 {
+    height: 35px;
+    width: 175px;
+    line-height: 35px;
+    background-color: rgb(193, 193, 197);
+    font-size: 18px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.boxrighttop11:hover {
+    background-color: white;
+}
+
+.boxrighttop11 a {
+    height: 35px;
+    width: 185px;
+    text-decoration: none;
+    color: black;
+}
+
+.boxrighttop11 a:hover {
+    color: blueviolet;
+}
+
+.boxrighttop2 {
+    float: left;
+    width: 100%;
+    height: 94%;
+    background-color: rgb(197, 196, 194);
+}
+
+.boxrighttop22 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: burlywood;
+    margin-top: 10px;
+}
+
+.boxrighttop22 img {
+    height: 100%;
+}
+
+.boxrighttop22 a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.boxrighttop22 a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.boxrightbottom {
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.boxbottom {
+    background-color: white;
+    width: 740px;
+    height: 1290px;
+    float: left;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    width: 50%;
+    font-size: 18px;
+}

@@ -1,0 +1,192 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(38, 39, 39);
+}
+
+.boxtop {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-image: url(../image/nen-box.png);
+}
+
+.boxtop a {
+    text-decoration: none;
+}
+
+.boxtopleft {
+    float: left;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 12%;
+}
+
+.boxtopleft a {
+    color: red;
+}
+
+.boxtopcenter input {
+    width: 300px;
+    height: 30px;
+    margin-top: 6.5px;
+    float: left;
+}
+
+.boxtopright {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding-right: 13%;
+}
+
+.boxtopright a {
+    color: black;
+    padding-left: 10px;
+}
+
+.boxtopright a:hover {
+    color: blueviolet;
+}
+
+.boxmenu ul {
+    list-style-type: none;
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+}
+
+.boxmenu ul li {
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.boxmenu ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.boxmenu ul li a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.boxmenu ul li a:active {
+    background-color: white;
+}
+
+.boxmenu ul li>.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.boxmenu ul li:hover .sub-menu {
+    display: block;
+    background-color: white;
+}
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1064px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.box1 {
+    width: 100%;
+    height: 45px;
+    float: left;
+    background-color: rgb(7, 7, 138);
+    line-height: 45px;
+    font-size: 18px;
+    color: white;
+}
+
+article {
+    width: 1064px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.boxleft {
+    float: left;
+    background-color: white;
+    width: 740px;
+    height: 800px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.boxleft p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxright {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.boxright a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxright a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.boxright a p {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    width: 50%;
+    font-size: 18px;
+}

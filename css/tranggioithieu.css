@@ -1,0 +1,328 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(38, 39, 39);
+}
+
+.boxtop {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-image: url(../image/nen-box.png);
+}
+
+.boxtop a {
+    text-decoration: none;
+}
+
+.boxtopleft {
+    float: left;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 12%;
+}
+
+.boxtopleft a {
+    color: red;
+}
+
+.boxtopcenter input {
+    width: 300px;
+    height: 30px;
+    margin-top: 6.5px;
+    float: left;
+}
+
+.boxtopright {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding-right: 13%;
+}
+
+.boxtopright a {
+    color: black;
+    padding-left: 10px;
+}
+
+.boxtopright a:hover {
+    color: blueviolet;
+}
+
+.boxmenu ul {
+    list-style-type: none;
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+}
+
+.boxmenu ul li {
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.boxmenu ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.boxmenu ul li a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.boxmenu ul li a:active {
+    background-color: white;
+}
+
+.boxmenu ul li>.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.boxmenu ul li:hover .sub-menu {
+    display: block;
+    background-color: white;
+}
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1064px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+article {
+    width: 1064px;
+    height: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.boxleft {
+    float: left;
+    background-color: white;
+    width: 740px;
+    height: 1500px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.boxleft p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 {
+    width: 100%;
+    height: 45px;
+    float: left;
+    background-color: rgb(7, 7, 138);
+    line-height: 45px;
+    font-size: 18px;
+    color: white;
+}
+
+.box2 {
+    width: 200px;
+    height: 265px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.box3 {
+    width: 400px;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.box3 iframe {
+    margin-top: 10px;
+}
+
+.box3 p {
+    font-size: 23px;
+}
+
+.box31 {
+    margin-top: 20px;
+    width: 140px;
+    height: 155px;
+    float: left;
+    /* background-color: rgb(211, 206, 206); */
+}
+
+.box32 {
+    margin-top: 20px;
+    width: 240px;
+    height: 155px;
+    float: right;
+    /* background-color: rgb(153, 149, 149); */
+}
+
+.box31 p {
+    padding-top: 9px;
+    color: rgb(94, 92, 92);
+}
+
+.box32 p {
+    padding-top: 9px;
+    color: rgb(94, 92, 92);
+}
+
+.box33 {
+    width: 100%;
+    height: 33px;
+    /* background-color: aquamarine; */
+    margin-bottom: 10px;
+}
+
+.box33 button {
+    background-color: rgb(243, 186, 81);
+    height: 100%;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.box33 button:hover {
+    background-color: rgb(245, 163, 12);
+}
+
+.box33 button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.boxleft1 {
+    margin-top: 25px;
+    width: 740px;
+    height: 130px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.boxleft1 p {
+    color: rgb(5, 5, 148);
+}
+
+.boxleft1 em {
+    font-size: 18px;
+}
+
+.boxleft2 {
+    margin-top: 25px;
+    width: 740px;
+    height: 500px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.boxleft2 p {
+    color: rgb(5, 5, 148);
+}
+
+.boxleft21 {
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.boxleft2 a {
+    text-decoration: none;
+    color: rgb(187, 184, 184);
+}
+
+.boxleft2 a:link {
+    color: black;
+}
+
+.boxleft2 a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.boxleft3 {
+    margin-top: 60px;
+    width: 100%;
+    float: left;
+    height: 390px;
+    /* background-color: aqua; */
+}
+
+.boxright {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.boxright a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxright a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.boxright a p {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    width: 50%;
+    font-size: 18px;
+}
